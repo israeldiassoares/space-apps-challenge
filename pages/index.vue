@@ -3,6 +3,7 @@
     <div class="content">
       <Banner class="index-banner"/>
       <Benefits class="benefits-section"/>
+      <Connected class="connected-section"/>
       <Clients class="clients-section"/>
     </div>
   </div>
@@ -13,10 +14,13 @@
     import Banner from "../components/molecules/Banner";
     import Benefits from "../components/organisms/Benefits";
     import Clients from "../components/organisms/Clients";
+    import Connected from "../components/organisms/Connected";
 
     export default {
+        plugins: ['~/plugins/ship-maps'],
         layout: 'default',
         components: {
+            Connected,
             Clients,
             Benefits,
             Banner,
@@ -29,8 +33,15 @@
   .container {
     overflow: hidden;
   }
-  .index-banner{
+
+  .index-banner {
     /*z-index: -100;*/
+  }
+
+  .connected-section {
+    position: relative;
+    bottom: 50px;
+    z-index: -1000;
   }
 
 </style>

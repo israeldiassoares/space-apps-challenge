@@ -1,6 +1,6 @@
 <template>
 <div class="connected-container">
-  <img src="" alt="">
+  <img src="../../assets/banner/connected.jpeg" alt="">
 </div>
 </template>
 
@@ -11,5 +11,10 @@
 </script>
 
 <style scoped>
+  .connected-container{
+    min-width: 100%;
+    min-height: 100%;
+  }
+
 
 </style>

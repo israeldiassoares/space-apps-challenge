@@ -1,7 +1,6 @@
 <template>
-  <div class="container">
-      <Logo class="img-logo"/>
-      <Menu class="menu-header"/>
+  <div class="header-container">
+    <Menu class="menu-header"/>
   </div>
 </template>
 
@@ -19,20 +18,16 @@
 </script>
 
 <style scoped>
-  .container{
+  .header-container{
     display: flex;
     flex-direction: row;
     background-color: darkblue;
     height: 75px;
+  justify-content: flex-end;
   }
   .menu-header {
     display: flex;
     align-items: center;
-  }
-  .img-logo{
-    position: relative;
-    z-index: 1000;
-
   }
 
 </style>

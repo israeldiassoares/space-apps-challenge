@@ -15,6 +15,8 @@
             et quo num tendi nada.
           </p>
         </div>
+        <div class="border-bottom"></div>
+
       </div>
       <div class="card card-2">
         <img alt="" class="card-img" src="../../assets/card/card-img-1.jpeg">
@@ -30,6 +32,8 @@
             et quo num tendi nada.
           </p>
         </div>
+        <div class="border-bottom"></div>
+
       </div>
       <div class="card card-3">
         <img alt="" class="card-img" src="../../assets/card/card-img-1.jpeg">
@@ -45,6 +49,7 @@
             et quo num tendi nada.
           </p>
         </div>
+        <div class="border-bottom"></div>
       </div>
     </div>
   </div>
@@ -57,13 +62,14 @@
 </script>
 
 <style scoped>
+
+
   .card-content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     min-width: 100%;
     height: auto;
-    background-color: #fff;
   }
 
   .card-content img {
@@ -74,9 +80,11 @@
   .card {
     width: 320px;
   }
+
   .card-text {
     padding: 0 12px 0 12px;
   }
+
   .title {
     font-size: 28px;
   }
@@ -84,5 +92,12 @@
   .description {
     padding-top: 16px;
     font-size: 16px;
+  }
+
+  .border-bottom {
+    height: 32px;
+    width: 100%;
+    background-color: #3595C5;
+    opacity: 0.6;
   }
 </style>

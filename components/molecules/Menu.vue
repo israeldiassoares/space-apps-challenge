@@ -12,6 +12,7 @@
     <nuxt-link class="menu-buy" to="buy-it">
       Buy Now
     </nuxt-link>
+    <nuxt-link to="localization">Localizacao</nuxt-link>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="copy-main-container">
-    <p>Allrights reserved by DOG3 </p>
+    <p>Copy right reserved by Onet </p>
   </div>
 </template>
 
